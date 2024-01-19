@@ -1,0 +1,253 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f5f7f5fa;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    background-color: #e2e1e1;
+}
+
+.wrapper {
+    width: 55%;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background-color: #faf9f9;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    box-shadow: 22px 6px 24px -22px rgba(66, 68, 90, 1);
+    margin: 0 auto;
+}
+
+aside {
+    background: #1e2939;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.photo {
+    padding-top: 25px;
+}
+.cv-photo {
+    width: 100%;
+}
+
+.header-secondary {
+    color: #ffffff;
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+main {
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.skills li {
+    color: #fffdfa;
+    
+}
+
+.skills h2 {
+    color: #ffffff;
+    
+    
+}
+
+.description {
+    color: #f3f3f3;
+ 
+}
+.skills {
+    padding: 25px;
+}
+.headerText {
+    color: #ffffff;
+}
+
+.contact-links {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px
+    line-height 24px;
+}
+
+.bold {
+    font-weight 700; 
+}
+
+.list-secondary {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-secondary-item {
+    color: #fcfcfc;
+
+}
+
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech-skills-block{
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.name-block {
+    margin-left: 88px;
+    margin-top: 19px;
+}
+.job-block {
+    margin-top: 102px;
+    margin-left: 88px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-descirption-block {
+    margin-left: 88px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 348px;
+}
+
+main {
+    padding-left: 88px;
+    padding-top: 102px;
+    padding-right: 102px;
+    padding-right: 88px;
+}
+
+.main-descirption {
+    width: 400px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+
+}
+
+.list-primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-secondary-item {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 24px;
+    color: #fdfdfd;
+    text-decoration: none;
+
+}
+
+.header-primary {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.job-position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.highlight {
+    color: #fb6d3a;
+}
+
+.job-date {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.job-list {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px; 
+    margin-left: -20px;
+}
+
+.Job-Manager {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.job-date {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px; 
+}
+
+.job-name-uni {
+    color: #fb6d3a
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.highlight 2 {
+    color: ##fb6d3a
+
+}
+
+.job-date 2 {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px; 
+}
+
+.job-positionFront-End {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.soft-skills-block {
+    margin-top: 47px;
+    margin-left: 15px;
+}
+
+.header-secondary-two {
+    margin-top: 47px;
+    margin-left: 20px;
+}
